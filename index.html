@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        >
+        <link rel="stylesheet" href="./use.css">
+        <script src="./myscript.js" defer></script>
+        <title>Calculator</title>
+    </head>
+    <body class="bg-dark">
+        <nav id="navbar-example2" class="navbar navbar-light bg-light">
+            <h1 class="navbar-brand">Calculator</h1>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/sam5O5">GitHub</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="eashutyagi100@gmail.com">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a
+                        class="nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        href="#"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                    >Dropdown</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#one">one</a>
+                        <a class="dropdown-item" href="#two">two</a>
+                        <div role="separator" class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#three">three</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div id="oute" class="container-fluid">
+            <div id="display" class="output bg-light">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+            </div>
+            <div id="keyboard">
+                <div class="row">
+                    <button data-AC id="AC" class="btn btn-danger">AC</button>
+                    <button data-delete class="btn btn-light">DEL</button>
+                    <button data-operation class="btn btn-light">/</button>
+                </div>
+                <div class="row">
+                    <button data-number class="btn btn-info" value="1">1</button>
+                    <button data-number class="btn btn-info" value="2">2</button>
+                    <button data-number class="btn btn-info" value="3">3</button>
+                    <button data-operation class="btn btn-light" value="*">*</button>
+                </div>
+                <div class="row">
+                    <button data-number class="btn btn-info" value="4">4</button>
+                    <button data-number class="btn btn-info" value="5">5</button>
+                    <button data-number class="btn btn-info" value="6">6</button>
+                    <button data-operation class="btn btn-light" value="+">+</button>
+                </div>
+                <div class="row">
+                    <button data-number class="btn btn-info" value="7">7</button>
+                    <button data-number class="btn btn-info" value="8">8</button>
+                    <button data-number class="btn btn-info" value="9">9</button>
+                    <button data-operation class="btn btn-light" value="-">-</button>
+                </div>
+                <div class="row">
+                    <button data-number class="btn btn-light" value=".">.</button>
+                    <button data-number class="btn btn-light" value="0">0</button>
+                    <button
+                        data-equals
+                        id="equal"
+                        class="btn btn-success"
+                        value="="
+                    >=</button>
+                </div>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

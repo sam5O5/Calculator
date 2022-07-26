@@ -1,0 +1,103 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+
+body {
+    background: antiquewhite;
+}
+
+#header {
+    text-align: right;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#oute {
+    text-align: right;
+    width: 380px;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: white;
+    padding: 8px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1B2430;
+}
+
+.output {
+    min-height: 100px;
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    word-wrap: break-word;
+    word-break: break-all;
+    flex-direction: column;
+    margin-top: 17px;
+    background: #bcbcbc;
+    padding: 15px;
+    width: 263px;
+    margin-left: 13%;
+    text-align: right;
+    font-family: 'Share Tech Mono', monospace;
+    border-radius: 8px;
+}
+
+.previous-operand {
+    color: black;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+.current-operand {
+    color: black;
+    font-size: 2.5rem;
+    text-align: right;
+
+}
+
+#keyboard {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    margin-right: 47px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+#AC {
+    width: 130px;
+}
+
+#equal {
+    width: 130px;
+}
+
+.row {
+    margin-top: 4px;
+}
+
+.last-row {
+    float: left;
+    margin-top: -11.5%;
+}
+
+button {
+    width: 64px;
+    margin: 2px;
+}
+
+.invisible {
+    width: 0;
+}
+
+.btn-zero {
+    width: 134px;
+}
+
+.btn-result {
+    float: right;
+    margin-left: 4px;
+    height: 74px;
+}
